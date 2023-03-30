@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Public Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -36,6 +36,7 @@ body {
 }
 
 .btn {
+  font-family: "Public Sans", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -83,6 +84,7 @@ a {
 }
 
 .header__container nav {
+  font-family: "Public Sans", sans-serif;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -141,6 +143,7 @@ a {
   height: calc(100vh - 88px);
   display: flex;
   gap: 0 76px;
+  /* margin-top: 74px; */
   align-items: center;
   /* flex-wrap: wrap; */
   /* align-content: center; */
@@ -151,6 +154,7 @@ a {
 }
 
 .header .header__heading {
+  font-family: "Public Sans", sans-serif;
   font-weight: 800;
   font-size: 50px;
   line-height: 60px;
@@ -262,4 +266,11 @@ a {
 
 .header .header__images .header__image:nth-child(2) {
   transform: translateY(77px);
+}
+
+.header .header__hero .play-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #152427;
 }
